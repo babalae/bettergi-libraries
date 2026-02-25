@@ -5,7 +5,7 @@
         <Nullable>enable</Nullable>
         <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
         <EnableDynamicLoading>true</EnableDynamicLoading>
-        <Version>1.0.11</Version>
+        <Version>1.0.12</Version>
         <Authors>huiyadanli</Authors>
         <Description>BetterGI Assets Content </Description>
         <PackageProjectUrl>https://github.com/babalae/bettergi-libraries</PackageProjectUrl>
