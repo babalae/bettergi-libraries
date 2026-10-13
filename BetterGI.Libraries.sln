@@ -2,8 +2,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGI.VCRuntime", "BetterGI.VCRuntime\BetterGI.VCRuntime.csproj", "{BC1F11FB-F3C3-4B8A-9E4E-5BBF939265B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGI.Assets", "BetterGI.Assets\BetterGI.Assets.csproj", "{5F26C319-C260-48A1-A56B-CD63F3085935}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGI.Assets.Model", "BetterGI.Assets.Model\BetterGI.Assets.Model.csproj", "{51296CA5-2BA2-4E2A-B220-5B0653CF0618}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterGI.Assets.Other", "BetterGI.Assets.Other\BetterGI.Assets.Other.csproj", "{C4596F5E-DE46-4FDE-BAEA-1D46B2EA981B}"
@@ -20,10 +18,6 @@ Global
 		{BC1F11FB-F3C3-4B8A-9E4E-5BBF939265B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC1F11FB-F3C3-4B8A-9E4E-5BBF939265B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BC1F11FB-F3C3-4B8A-9E4E-5BBF939265B0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F26C319-C260-48A1-A56B-CD63F3085935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F26C319-C260-48A1-A56B-CD63F3085935}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F26C319-C260-48A1-A56B-CD63F3085935}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F26C319-C260-48A1-A56B-CD63F3085935}.Release|Any CPU.Build.0 = Release|Any CPU
 		{51296CA5-2BA2-4E2A-B220-5B0653CF0618}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{51296CA5-2BA2-4E2A-B220-5B0653CF0618}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51296CA5-2BA2-4E2A-B220-5B0653CF0618}.Release|Any CPU.ActiveCfg = Release|Any CPU
