@@ -29,7 +29,3 @@ node_modules/
 
 # Rider
 .idea
-
-# 打包产物
-artifacts/
-dist/
