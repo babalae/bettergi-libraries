@@ -8,12 +8,24 @@ on:
       - 'BetterGI.Assets.Model/**'
       - 'BetterGI.Assets.Other/**'
   workflow_dispatch:  # 允许手动触发
+    inputs:
+      package:
+        description: '强制发布的包（跳过变更检测）'
+        required: true
+        type: choice
+        default: BetterGI.Assets.Map
+        options:
+          - BetterGI.Assets.Map
+          - BetterGI.Assets.Model
+          - BetterGI.Assets.Other
+          - all
 
 permissions:
   contents: read
 
 jobs:
   detect-changes:
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     outputs:
       map-changed: ${{ steps.changes.outputs.map }}
@@ -39,7 +51,13 @@ jobs:
 
   build-and-publish-map:
     needs: detect-changes
-    if: needs.detect-changes.outputs.map-changed == 'true'
+    if: >-
+      !cancelled() && (
+        (github.event_name == 'workflow_dispatch' &&
+          (inputs.package == 'BetterGI.Assets.Map' || inputs.package == 'all')) ||
+        (github.event_name == 'push' && needs.detect-changes.result == 'success' &&
+          needs.detect-changes.outputs.map-changed == 'true')
+      )
     runs-on: windows-latest
     permissions:
       contents: read
@@ -74,7 +92,13 @@ jobs:
 
   build-and-publish-model:
     needs: detect-changes
-    if: needs.detect-changes.outputs.model-changed == 'true'
+    if: >-
+      !cancelled() && (
+        (github.event_name == 'workflow_dispatch' &&
+          (inputs.package == 'BetterGI.Assets.Model' || inputs.package == 'all')) ||
+        (github.event_name == 'push' && needs.detect-changes.result == 'success' &&
+          needs.detect-changes.outputs.model-changed == 'true')
+      )
     runs-on: windows-latest
     permissions:
       contents: read
@@ -109,7 +133,13 @@ jobs:
 
   build-and-publish-other:
     needs: detect-changes
-    if: needs.detect-changes.outputs.other-changed == 'true'
+    if: >-
+      !cancelled() && (
+        (github.event_name == 'workflow_dispatch' &&
+          (inputs.package == 'BetterGI.Assets.Other' || inputs.package == 'all')) ||
+        (github.event_name == 'push' && needs.detect-changes.result == 'success' &&
+          needs.detect-changes.outputs.other-changed == 'true')
+      )
     runs-on: windows-latest
     permissions:
       contents: read

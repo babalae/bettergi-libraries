@@ -14,3 +14,11 @@
 3. 确认首次发布成功后，可以移除不再使用的仓库 Secret `NUGET_API_KEY`，并在 NuGet.org 撤销对应的长期密钥。
 
 三个包保留原有的变更检测和按需发布逻辑，各发布任务会在推包前单独获取临时凭据。
+
+### 手动强制发布
+
+进入 GitHub 仓库 **Actions → 发布到 NuGet → Run workflow**，选择分支，然后在 `package` 下拉框选择 `BetterGI.Assets.Map`、`BetterGI.Assets.Model`、`BetterGI.Assets.Other` 或 `all`，点击 **Run workflow**。
+
+手动运行会跳过变更检测，仅构建并发布选中的包；`all` 会发布上述三个包。自动 push 触发仍按目录变更决定发布哪些包。
+
+“强制”指忽略文件是否发生变化，版本号仍取自对应项目文件。保留 `--skip-duplicate`，已有版本会被跳过；需要发布新内容时，请先更新项目版本号。
