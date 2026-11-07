@@ -330,6 +330,76 @@
     "IsOverSize": false
   },
   {
+    "LayerGroupId": "29",
+    "LayerId": "LayeredMap_29_-1",
+    "Name": "新基捷城",
+    "Scale": 3.0,
+    "Floor": -1,
+    "Top": 10398.0,
+    "Left": 4911.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "29",
+    "LayerId": "LayeredMap_29_-2",
+    "Name": "地底的列车站",
+    "Scale": 3.0,
+    "Floor": -2,
+    "Top": 9742.0,
+    "Left": 4426.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "31",
+    "LayerId": "LayeredMap_31_-1",
+    "Name": "克什尼克矿区",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 10227.0,
+    "Left": 4320.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "32",
+    "LayerId": "LayeredMap_32_-1",
+    "Name": "矿洞深底",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 10192.0,
+    "Left": 3931.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "33",
+    "LayerId": "LayeredMap_33_-1",
+    "Name": "由厄难撑开的裂口",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 10697.0,
+    "Left": 3984.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "33",
+    "LayerId": "LayeredMap_33_-2",
+    "Name": "晶树溶洞",
+    "Scale": 2.0,
+    "Floor": -2,
+    "Top": 10942.0,
+    "Left": 4509.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "33",
+    "LayerId": "LayeredMap_33_-3",
+    "Name": "流向瀑布的河道",
+    "Scale": 2.0,
+    "Floor": -3,
+    "Top": 10609.0,
+    "Left": 4488.0,
+    "IsOverSize": false
+  },
+  {
     "LayerGroupId": "34402",
     "LayerId": "LayeredMap_34402_-1",
     "Name": "烟山的山心",
@@ -350,6 +420,36 @@
     "IsOverSize": false
   },
   {
+    "LayerGroupId": "35",
+    "LayerId": "LayeredMap_35_-1",
+    "Name": "地下的支流",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 11179.0,
+    "Left": 4501.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "35",
+    "LayerId": "LayeredMap_35_-2",
+    "Name": "支流隐匿处",
+    "Scale": 2.0,
+    "Floor": -2,
+    "Top": 11034.0,
+    "Left": 4610.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "36",
+    "LayerId": "LayeredMap_36_-1",
+    "Name": "矿底的阴影浮流之地",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9734.0,
+    "Left": 3905.0,
+    "IsOverSize": false
+  },
+  {
     "LayerGroupId": "37701",
     "LayerId": "LayeredMap_37701_-1",
     "Name": "谜土与夜魂的祭祀所",
@@ -357,6 +457,116 @@
     "Floor": -1,
     "Top": -1426.0,
     "Left": 9868.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "37",
+    "LayerId": "LayeredMap_37_-1",
+    "Name": "影中高塔之谷",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9687.0,
+    "Left": 4034.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "38",
+    "LayerId": "LayeredMap_38_-1",
+    "Name": "私物堆砌的秘所",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9066.0,
+    "Left": 4002.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "39",
+    "LayerId": "LayeredMap_39_-1",
+    "Name": "已遭废弃的列车站",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9563.0,
+    "Left": 3001.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "40",
+    "LayerId": "LayeredMap_40_1",
+    "Name": "古鳞者空窟",
+    "Scale": 2.0,
+    "Floor": 1,
+    "Top": 9610.0,
+    "Left": 2438.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "40",
+    "LayerId": "LayeredMap_40_2",
+    "Name": "古鳞者空窟",
+    "Scale": 2.0,
+    "Floor": 2,
+    "Top": 9576.0,
+    "Left": 2268.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "41",
+    "LayerId": "LayeredMap_41_-1",
+    "Name": "贯穿山体的罅裂",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9874.0,
+    "Left": 3384.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "42",
+    "LayerId": "LayeredMap_42_-1",
+    "Name": "窃酿者的基地",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 10699.0,
+    "Left": 4211.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "43",
+    "LayerId": "LayeredMap_43_-1",
+    "Name": "冰映之镜宫",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 9889.0,
+    "Left": 3372.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "44",
+    "LayerId": "LayeredMap_44_-1",
+    "Name": "镜面外的弃墟",
+    "Scale": 2.0,
+    "Floor": -1,
+    "Top": 10036.0,
+    "Left": 2700.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "44",
+    "LayerId": "LayeredMap_44_-2",
+    "Name": "镜面外的厅堂",
+    "Scale": 2.0,
+    "Floor": -2,
+    "Top": 10028.0,
+    "Left": 2837.0,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "44",
+    "LayerId": "LayeredMap_44_-3",
+    "Name": "镜面外的廊道",
+    "Scale": 2.0,
+    "Floor": -3,
+    "Top": 10200.0,
+    "Left": 2723.0,
     "IsOverSize": false
   },
   {

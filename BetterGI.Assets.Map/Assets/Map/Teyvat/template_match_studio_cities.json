@@ -90,6 +90,36 @@
     "IsOverSize": false
   },
   {
+    "LayerGroupId": "Reference2_G039",
+    "LayerId": "City_600",
+    "Name": "新基捷城市区 / 晶矿精炼厂",
+    "Scale": 3.0,
+    "Floor": 0,
+    "Top": 10289.8213,
+    "Left": 4725.27734,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "Reference2_G041",
+    "LayerId": "City_6009",
+    "Name": "贝洛沃迪港",
+    "Scale": 3.0,
+    "Floor": 0,
+    "Top": 9271.504,
+    "Left": 3580.313,
+    "IsOverSize": false
+  },
+  {
+    "LayerGroupId": "Reference2_G042",
+    "LayerId": "City_6104",
+    "Name": "旧基捷城",
+    "Scale": 3.0,
+    "Floor": 0,
+    "Top": 9585.815,
+    "Left": 2855.39868,
+    "IsOverSize": false
+  },
+  {
     "LayerGroupId": "Reference2_G025",
     "LayerId": "City_7302",
     "Name": "皮拉米达城",
